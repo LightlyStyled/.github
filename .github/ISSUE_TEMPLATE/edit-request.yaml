@@ -1,0 +1,55 @@
+name: Suggest a change
+description: Request a new edit.
+assignees:
+  - samggeer
+labels:
+  - action: edit
+  - stage: concept
+  
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Before requesting a **New Edit**, please search for the edit in the existing issues.        
+        
+        * Found a security flaw? Submit a [**Vulnerability Report**](https://lightlystyled.com/contact).
+        * Need real-time help? Join the [**Discussions**](https://github.com/orgs/LightlyStyled/discussions).
+
+        ---
+  
+  - type: dropdown
+    id: affected-packages
+    attributes:
+      label: Edit package
+      description: What package is relevant to the edit?
+      options:
+        - Less Skin
+        - Less Press Box
+        - Less Events Box
+        - Less Questions Box
+        - Less Testimonials Box
+        - Don't know or other
+      multiple: false
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Edit description
+      description: What is the correction or omittance that should be addressed?
+    validations:
+      required: false
+  
+  - type: input
+    id: affected-url
+    attributes:
+      label: Edit URL
+      description: Enter the URL that requires the edit.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Is there anything else you can share?

@@ -1,0 +1,63 @@
+name: Suggest an idea
+description: Request a new feature.
+assignees:
+  - samggeer
+labels:
+  - action: feat
+  - stage: concept
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Before requesting a **New Feature**, please search for the feature in the existing issues.        
+        
+        * Found a security flaw? Submit a [**Vulnerability Report**](https://lightlystyled.com/contact).
+        * Need real-time help? Join the [**Discussions**](https://github.com/orgs/LightlyStyled/discussions).
+
+        ---
+
+  - type: dropdown
+    id: affected-packages
+    attributes:
+      label: Feature package
+      description: What package(s) are relevant to the feature?
+      options:
+        - Less Skin
+        - Less Press Box
+        - Less Events Box
+        - Less Questions Box
+        - Less Testimonials Box
+        - Don't know or other
+      multiple: true
+ 
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: What problem will the feature solve?
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+      description: What is your proposed solution?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives considered
+      description: What alternatives have you considered?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Is there anything else you can share?
