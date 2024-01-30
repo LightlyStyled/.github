@@ -25,15 +25,14 @@ body:
       description: Where is the bug?
       options:
         - Less Skin
-        - Less Press Box
-        - Less Events Box
-        - Less Updates Box
-        - Less Questions Box
-        - Less Documents Box
         - Less Changelogs Box
         - Less Definitions Box
+        - Less Documents Box
+        - Less Events Box
+        - Less Press Box
+        - Less Questions Box
         - Less Testimonials Box
-        - I Don't know or other
+        - Less Updates Box
       multiple: false
     validations:
       required: true
