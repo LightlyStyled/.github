@@ -27,10 +27,13 @@ body:
         - Less Skin
         - Less Press Box
         - Less Events Box
+        - Less Updates Box
         - Less Questions Box
+        - Less Documents Box
+        - Less Changelogs Box
+        - Less Definitions Box
         - Less Testimonials Box
-        - Don't know or other
-      multiple: true
+      multiple: false
  
   - type: textarea
     id: description
@@ -48,14 +51,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: alternatives-considered
-    attributes:
-      label: Alternatives considered
-      description: What alternatives have you considered?
-    validations:
-      required: true
-  
   - type: textarea
     id: additional
     attributes:
