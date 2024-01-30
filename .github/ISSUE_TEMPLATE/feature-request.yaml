@@ -22,7 +22,7 @@ body:
     id: affected-packages
     attributes:
       label: Feature package
-      description: What package(s) are relevant to the feature?
+      description: What package is relevant to the feature?
       options:
         - Less Skin
         - Less Press Box
