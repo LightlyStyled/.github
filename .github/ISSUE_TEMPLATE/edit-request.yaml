@@ -25,11 +25,14 @@ body:
       description: What package is relevant to the edit?
       options:
         - Less Skin
-        - Less Press Box
+        - Less Changelogs Box
+        - Less Definitions Box
+        - Less Documents Box
         - Less Events Box
+        - Less Press Box
         - Less Questions Box
         - Less Testimonials Box
-        - Don't know or other
+        - Less Updates Box
       multiple: false
     validations:
       required: true
