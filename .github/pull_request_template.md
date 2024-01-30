@@ -3,48 +3,41 @@ Please, go through these steps before you submit a PR
 IMPORTANT: Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for detailed contributing guidelines
 -->
 
-## What is this PR? (check all applicable)
+## Proposed Change
 
-- [ ] 🍕 Feature
-- [ ] ♿️ Accessibility
-- [ ] 🤝 Compatibility
-- [ ] 🎯 Optimization
-- [ ] 🔥 Performance
-- [ ] 🔍 Interesting
-- [ ] 🔒 Security
+- [ ] ✏️ Edit
+- [ ] 🚀 Feature
 - [ ] 👾 Debug
-- [ ] ⭐️ Other
+- [ ] 📝 Docs
 
-## Current Behavior
-<!-- If this PR closes an issue, please mention the issue number below -->
+## Description
+This PR [adds/removes/edits] the [feature/bug/docs].
+
+<!--
+Include a list of breaking changes, deprecations, and migration instructions.
+
+- BREAK: 
+- DEPRECATE: 
+- MIGRATION: 
+-->
+
 - closes #<!-- Issue # here -->
 
-## Proposed Changes
-<!-- Add a description of how the proposed changes affect the current behavior? -->
+## Quality Check
+Add steps for experiencing the proposed change.
 
-## Quality Assurance
-<!-- 
-Please provide some steps for the reviewer to test your change.
-
-1. Go here...
-2. Do this thing...
-3. Validate you see the thing working...
--->
+1. Go to...
+2. Press enter...
+3. Notice the changes...
 
 ### Screenshots & Recordings
 <!-- Visual changes require screenshots -->
 
-## Added to documentation?
-
-- [ ] 📜 README.md
-- [ ] 🙅 no documentation needed
-
 ## Checklist
-- [ ] My PR is small and is limited to one issue.
-- [ ] [My PR is not a duplicate](https://github.com/LightlyStyled/LightlyStyled/pulls)
-- [ ] [My PR is properly formatted](https://github.com/LightlyStyled/.github/CONTRIBUTING.md#pull)
-- [ ] [My commit message is properly formatted](https://github.com/LightlyStyled/.github/CONTRIBUTING.md#commit)
-- [ ] [I have tested my changes](https://github.com/LightlyStyled/.github/CONTRIBUTING.md#test)
-- [ ] [I have commented my code](https://github.com/LightlyStyled/.github/CONTRIBUTING.md#document)
+
+- [ ] 📌 My changes are small and limited to one issue
+- [ ] 🧩 I have commented my code, especially in complex sections
+- [ ] 📜 I have updated relevant the documentation, such as `README.md`
+- [ ] ⚠️ My changes generate no new warnings
 
 <!-- note: PRs with deleted or incomplete sections will be marked invalid -->
