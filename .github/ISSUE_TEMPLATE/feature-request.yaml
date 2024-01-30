@@ -25,14 +25,14 @@ body:
       description: What package is relevant to the feature?
       options:
         - Less Skin
-        - Less Press Box
-        - Less Events Box
-        - Less Updates Box
-        - Less Questions Box
-        - Less Documents Box
         - Less Changelogs Box
         - Less Definitions Box
+        - Less Documents Box
+        - Less Events Box
+        - Less Press Box
+        - Less Questions Box
         - Less Testimonials Box
+        - Less Updates Box
       multiple: false
  
   - type: textarea
