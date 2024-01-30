@@ -27,9 +27,13 @@ body:
         - Less Skin
         - Less Press Box
         - Less Events Box
+        - Less Updates Box
         - Less Questions Box
+        - Less Documents Box
+        - Less Changelogs Box
+        - Less Definitions Box
         - Less Testimonials Box
-        - Don't know or other
+        - I Don't know or other
       multiple: false
     validations:
       required: true
