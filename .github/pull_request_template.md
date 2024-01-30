@@ -24,13 +24,11 @@ Include a list of breaking changes, deprecations, and migration instructions.
 - closes #<!-- Issue # here -->
 
 ## Quality Check
-Add steps for navigating to the proposed change.
+Add steps for navigating to the proposed change and what to expect once there.
 
 1. Go to...
 2. Select...
 3. Scroll to...
-
-Describe what to experience once navigated to the proposed change.
 
 ### Screenshots & Recordings
 <!-- Visual changes require screenshots -->
