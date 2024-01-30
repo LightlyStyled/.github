@@ -34,6 +34,8 @@ body:
         - Less Testimonials Box
         - Less Updates Box
       multiple: false
+      validations:
+      required: true
  
   - type: textarea
     id: description
