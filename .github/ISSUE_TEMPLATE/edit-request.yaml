@@ -43,7 +43,7 @@ body:
       label: Edit description
       description: What is the correction or omittance that should be addressed?
     validations:
-      required: false
+      required: true
   
   - type: input
     id: affected-url
