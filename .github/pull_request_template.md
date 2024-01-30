@@ -11,7 +11,7 @@ IMPORTANT: Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for deta
 - [ ] 📝 Docs
 
 ## Description
-This PR [adds/removes/edits] the [feature/bug/docs].
+This [drops/edits/adds/fixes] the [feature/bug/docs].
 
 <!--
 Include a list of breaking changes, deprecations, and migration instructions.
