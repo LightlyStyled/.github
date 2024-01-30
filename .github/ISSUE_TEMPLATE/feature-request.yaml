@@ -43,7 +43,7 @@ body:
       label: Feature description
       description: What problem will the feature solve?
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: proposed-solution
