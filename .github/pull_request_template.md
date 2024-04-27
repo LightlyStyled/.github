@@ -5,6 +5,10 @@ IMPORTANT: Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for deta
 
 ## Proposed Change
 
+<!--
+Choose one type of change, remove all others.
+-->
+
 - [ ] ✏️ Edit
 - [ ] 🚀 Feature
 - [ ] 👾 Debug
@@ -16,22 +20,25 @@ This [drops/edits/adds/fixes] the [feature/bug/docs].
 <!--
 Include a list of breaking changes, deprecations, and migration instructions.
 
-- BREAK: 
-- DEPRECATE: 
-- MIGRATION: 
+- `BREAKS` **Feature:** No longer supported.
+- `DEPRECATES` **Feature:** Will no longer be supported. 
+- `NOTICE` **Migration:** May/Must do something to keep data.
 -->
 
 - closes #<!-- Issue # here -->
 
+<!--
 ## Quality Check
 Add steps for navigating to the proposed change and what to expect once there.
 
 1. Go to...
 2. Select...
 3. Scroll to...
+-->
 
+<!-- 
 ### Screenshots & Recordings
-<!-- Visual changes require screenshots -->
+Visual changes require screenshots -->
 
 ## Checklist
 
